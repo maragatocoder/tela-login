@@ -35,7 +35,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-image: linear-gradient(rgba(252, 68, 22, 0.267), rgba(252, 68, 22, 0.26), rgba(252, 68, 22, 0.26));
+    background-image: linear-gradient(rgba(252, 22, 22, 0.267), rgba(252, 22, 22, 0.267), rgba(252, 22, 22, 0.267));
     width: 320px;
     height: 575px;
     border-radius: 30px;
@@ -64,8 +64,8 @@ section#login > div#formulario > h1 {
     font-size: 2em;
     text-align: center;
     color: rgb(221, 197, 164);
-    letter-spacing: 5px;
-    font-weight: normal;
+    letter-spacing: 7px;
+    font-weight: bolder;
 }
 
 form > div.campo {
@@ -103,26 +103,37 @@ div.campo > input {
 }
 
 div.campo > input::placeholder {
-    color: rgb(221, 197, 164);
-    letter-spacing: 10px;
+    color: rgb(65, 27, 1);
+    letter-spacing: 8px;
     font-weight: lighter;
 }
 
-input[type="checkbox"] {
-    display: none;
-}
-
-label.checkbox {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
-
-
-
-.botao {
+.footer {
     display: block;
+    text-align: center;
 }
+
+.checkbox {
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    color: rgb(255, 166, 0);
+}
+
+form > div > input[type=submit] {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 150px;
+    height: 40px;
+    margin-left: 85px;
+    margin-top: 20px;
+    background-color: rgb(255, 166, 0);
+    color: rgb(139, 56, 1);
+    border: none;
+    border-radius: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px rgba(36, 36, 36, 0.404);
+}
+
