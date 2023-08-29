@@ -4,22 +4,34 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
+        height: 400px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 30%;
-        height: 100%;
+        width: 50%;
+        height: 300px;
+        margin-top: 7%;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 70%;
-
+        width: 50%;
+        margin-top: 2%;
     }
+
+    form > div > input[type=submit] {
+        margin-left: 120px;
+    }
+
+
 }
 
 @media screen and (min-width: 992px) {
+    body, html {
+        background-size: cover;
+    }
+
     section#login {
         width: 950px;
     }
@@ -39,5 +51,9 @@
 
     div#formulario > h1 {
         padding-top: 100px;
+    }
+
+    form > div > input[type=submit] {
+        margin-left: 160px;
     }
 }
